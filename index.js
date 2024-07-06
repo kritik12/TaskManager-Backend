@@ -15,10 +15,7 @@ const PORT = process.env.PORT || 5000;
 
 const app = express();
 
-const allowedOrigins = [
-  "http://localhost:3000",
-  "http://localhost:3001",
-];
+const allowedOrigins = ["https://taskmanageraspire.netlify.app"];
 
 app.use(
   cors({
